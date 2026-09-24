@@ -1,0 +1,37 @@
+/* Projects page — extends css/style.css (tokens, nav, .proj-list, footer).
+   Only page-specific additions live here. */
+
+.projects-header {
+  padding: 3rem 0 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  margin-bottom: 1.25rem;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+.page-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  color: var(--text-dim);
+  font-size: 1rem;
+}
+
+.projects-page-list {
+  padding-bottom: 3.5rem;
+}

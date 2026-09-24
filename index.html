@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexus Huang — Portfolio</title>
+  <meta name="description" content="Alexus Huang, CS student at UC Santa Cruz focused on AI, machine learning, and systems.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="site-container">
+      <a href="#top" class="nav-mark">Alexus Huang</a>
+      <ul class="nav-links">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="site-container">
+
+      <!-- Hero -->
+      <header class="hero" id="top">
+        <p class="eyebrow">CS student · UC Santa Cruz</p>
+        <h1 class="name-title">Alexus Huang</h1>
+
+        <div class="bio">
+          <p>
+            I'm a sophomore at UC Santa Cruz, originally from Fremont, planning to pursue a master's in machine learning.
+            I got into CS because I enjoy building software from the ground up, lately that's meant training and
+            testing ML models against live system telemetry and structured datasets.
+          </p>
+          <p>
+            I'm actively looking for software engineering and AI internships for summer 2027.
+          </p>
+        </div>
+
+        <div class="hero-cta">
+          <a href="mailto:alexushu2325@gmail.com" class="btn btn-primary">Email me</a>
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Resume (PDF)</a>
+          <a href="https://github.com/alexus-Huang" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub</a>
+        </div>
+      </header>
+
+      <!-- Featured Projects -->
+      <section class="section" id="projects">
+        <div class="section-head">
+          <h2 class="section-title">Featured Projects</h2>
+          <a href="projects.html" class="section-link">More Projects</a>
+        </div>
+
+        <div class="proj-list">
+
+          <article class="proj">
+            <div class="proj-thumb">
+              <img src="images/thermal.png" alt="CPU Load and Thermal Monitor screenshot" loading="lazy">
+            </div>
+            <div class="proj-body">
+              <span class="proj-category">Machine learning · systems</span>
+              <h3 class="proj-title">CPU Load &amp; Thermal Monitor</h3>
+              <p class="proj-desc">Predictive telemetry monitor that forecasts CPU usage ten seconds ahead by fitting live system metrics to regression models.</p>
+              <div class="proj-tags"><span>Python</span><span>scikit-learn</span><span>NumPy</span><span>Telemetry</span></div>
+              <a href="https://github.com/alexus-Huang/predictive-cpu-load-monitor" target="_blank" rel="noopener noreferrer" class="proj-link">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj">
+            <div class="proj-thumb">
+              <img src="images/slugstudy.png" alt="SlugStudySpots screenshot" loading="lazy">
+            </div>
+            <div class="proj-body">
+              <span class="proj-category">Full-stack web app</span>
+              <h3 class="proj-title">SlugStudySpots</h3>
+              <p class="proj-desc">Crowd-sourced platform where UC Santa Cruz students find, review, and rate study spots across campus, with a contribution review flow.</p>
+              <div class="proj-tags"><span>Python</span><span>Flask</span><span>SQLite</span><span>PythonAnywhere</span></div>
+              <a href="https://slugstudy.pythonanywhere.com" target="_blank" rel="noopener noreferrer" class="proj-link">Visit live app</a>
+            </div>
+          </article>
+
+          <article class="proj">
+            <div class="proj-thumb">
+              <img src="images/edu-warning.png" alt="Edu-ML Early Warning System screenshot" loading="lazy">
+            </div>
+            <div class="proj-body">
+              <span class="proj-category">Predictive analytics · ML</span>
+              <h3 class="proj-title">Edu-ML Early Warning System</h3>
+              <p class="proj-desc">Classification pipeline that flags academic risk early in a term by analyzing engagement and coursework trends.</p>
+              <div class="proj-tags"><span>Python</span><span>scikit-learn</span><span>Pandas</span><span>Classification</span></div>
+              <a href="https://github.com/alexus-Huang/edu-ml-early-warning" target="_blank" rel="noopener noreferrer" class="proj-link">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="proj">
+            <div class="proj-thumb">
+              <img src="images/workout.png" alt="Gym Workout Analyzer screenshot" loading="lazy">
+            </div>
+            <div class="proj-body">
+              <span class="proj-category">Data analytics</span>
+              <h3 class="proj-title">Gym Workout Analyzer</h3>
+              <p class="proj-desc">Parses and visualizes workout logs to track progressive overload, exercise intensity, and recovery cycles over time.</p>
+              <div class="proj-tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span></div>
+              <a href="https://github.com/alexus-Huang/gym-workout-analyzer" target="_blank" rel="noopener noreferrer" class="proj-link">View on GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="section-head">
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-list">
+          <div class="skill-row">
+            <span class="skill-label">Languages</span>
+            <span class="skill-values">Python, JavaScript, SQL, HTML/CSS, Java, RISC-V Assembly</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">ML &amp; libraries</span>
+            <span class="skill-values">scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Chart.js, Flask</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">AI &amp; protocols</span>
+            <span class="skill-values">Claude API, Model Context Protocol (MCP), REST APIs</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Tools</span>
+            <span class="skill-values">Git, GitHub, SQLite, Jupyter Notebook, PythonAnywhere</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section class="section" id="resume">
+        <div class="section-head">
+          <h2 class="section-title">Resume</h2>
+        </div>
+
+        <div class="resume-card">
+          <p>UC Santa Cruz · Class of 2029</p>
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Download PDF</a>
+        </div>
+
+        <details class="resume-preview">
+          <summary>Preview inline instead</summary>
+          <div class="resume-frame-wrapper">
+            <iframe
+              src="resume.pdf#toolbar=0&navpanes=0&scrollbar=1"
+              title="Alexus Huang Resume"
+              class="resume-iframe" loading="lazy">
+            </iframe>
+          </div>
+        </details>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="section-head">
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <p style="color: var(--text-dim); margin-bottom: 1.5rem;">
+          Looking forward to connecting about software engineering and AI internship opportunities.
+        </p>
+        <div class="contact-list">
+          <div class="contact-row">
+            <span class="contact-type">Email</span>
+            <span>
+              <a href="mailto:alexushu2325@gmail.com">alexushu2325@gmail.com</a>
+              <button class="copy-btn" data-copy="alexushu2325@gmail.com"><span class="copy-label">Copy</span></button>
+            </span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-type">GitHub</span>
+            <a href="https://github.com/alexus-Huang" target="_blank" rel="noopener noreferrer">github.com/alexus-Huang</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-type">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/alexus-huang" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexus-huang</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; <span data-year>2026</span> Alexus Huang
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
