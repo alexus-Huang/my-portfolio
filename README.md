@@ -138,6 +138,6 @@ Deployed via **GitHub Pages** from the `main` branch.
 
 ## Contact
 
-- Email: [add your email here]
+- Email: [alexushu2325@gmail.com](mailto:alexushu2325@gmail.com)
 - GitHub: [github.com/alexus-huang](https://github.com/alexus-huang)
-- LinkedIn: [add your LinkedIn here]
+- LinkedIn: [linkedin.com/in/alexus-huang](https://www.linkedin.com/in/alexus-huang/)
